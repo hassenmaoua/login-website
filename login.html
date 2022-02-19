@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="src/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="login-box">
+      <h1>Sign In</h1>
+      <h4>Welcome to Hassen Maoua Website!</h4>
+      <form>
+        <p id="errorMessage"></p>
+
+        <div>Email</label>
+
+        <input
+          id="inputEmail"
+          autofocus
+          autocomplete="off"
+          type="text"
+          placeholder="example@domaine.com"
+        />
+
+        <label for="">Password</label>
+        <input id="inputPassword" type="password" placeholder="" />
+
+        <button onclick="onPress()" type="button" class="submitBtn">
+          Login
+        </button>
+      </form>
+    </div>
+
+    <p class="signup-para">
+      You don't have account? <a href="signup.html">Click here</a>
+    </p>
+    
+    <script src="src/login.js"></script>
+  </body>
+</html>

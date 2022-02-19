@@ -1,0 +1,118 @@
+body {
+  background-image: url("../images/background-purple.jpg");
+  font-family: "Roboto", sans-serif;
+  --color-primary: #5f0a87;
+  --color-secondary: #a4508b;
+}
+
+.signup-box {
+  width: 360px;
+  height: auto;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.login-box {
+  width: 360px;
+  height: auto;
+  margin: auto;
+  margin-top: 100px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+h4 {
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18;
+}
+
+.submitBtn {
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: var(--color-primary);
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.submitBtn:hover {
+  background-color: var(--color-secondary);
+}
+
+.submitBtn:active {
+  transform: scale(0.98);
+}
+
+form input {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+
+form input:focus {
+  border: 2px solid var(--color-primary);
+}
+
+p {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 15px;
+}
+
+.signin-para {
+  color: white;
+  margin-top: -15px;
+  font-size: 18px;
+}
+
+.signup-para {
+  color: var(--color-primary);
+  font-size: 18px;
+  margin-top: -10px;
+  padding-bottom: 10px;
+}
+
+.signin-para a,
+.signup-para a {
+  color: var(--color-primary);
+}
+
+#errorMessage {
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-left: 16px;
+  font-size: 14px;
+  color: red;
+}
+
+.errorLabel {
+  margin-top: 2px;
+  margin-left: 4px;
+  color: red;
+  font-size: 0.7rem;
+}
